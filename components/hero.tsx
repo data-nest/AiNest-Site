@@ -1,12 +1,12 @@
 // import VideoThumb from '@/public/images/hero-image-01.jpg'
 import VideoThumb from '@/public/images/GDD.jpg'
 import ModalVideo from '@/components/modal-video'
-
+import { motion } from "framer-motion";
 
 export default function Hero() {
 
   return (
-    <section>
+    <section className="h-screen flex items-center">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
         {/* Illustration behind hero content */}
@@ -40,7 +40,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <ModalVideo
+          {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1000}
             thumbHeight={500}
@@ -49,7 +49,7 @@ export default function Hero() {
             videoWidth={1920}
             videoHeight={1080} 
             
-            />
+            /> */}
 
         </div>
 
