@@ -16,7 +16,6 @@ import BackToTop from '@/components/backtotop'
 export default function Home() {
   return (
     <>
-      <Careers />
       
       <BackToTop />
     </>
