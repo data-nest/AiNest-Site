@@ -13,10 +13,7 @@ export default function Careers() {
         {/* Internship Offers */}
         
         <div className="mt-10 text-left px-4">
-        <div>
-          <h2 className="text-3xl font-bold text-slate-600 text-center">Current Internship Offers</h2>
-          <CardsSection />
-        </div>
+
 
 
           {/* Open Postions */}
